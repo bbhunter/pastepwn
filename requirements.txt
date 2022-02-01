@@ -1,4 +1,4 @@
-certifi==2018.8.24
+certifi==2021.10.8
 pymongo==3.7.1
 urllib3==1.23
 
