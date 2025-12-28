@@ -2,7 +2,6 @@
 
 
 # pastepwn - Paste-Scraping Python Framework
-[![Build Status](https://travis-ci.com/d-Rickyy-b/pastepwn.svg?branch=master)](https://travis-ci.com/d-Rickyy-b/pastepwn)
 [![PyPI version](https://badge.fury.io/py/pastepwn.svg)](https://badge.fury.io/py/pastepwn)
 [![Coverage Status](https://coveralls.io/repos/github/d-Rickyy-b/pastepwn/badge.svg?branch=master)](https://coveralls.io/github/d-Rickyy-b/pastepwn?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/513ae84197824ff89c0a60a5291c4425)](https://www.codacy.com/manual/d-Rickyy-b/pastepwn?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=d-Rickyy-b/pastepwn&amp;utm_campaign=Badge_Grade)
@@ -13,8 +12,9 @@
 
 **Please note:** This framework is **not** to be used for illegal actions. It can be used for querying public Pastebin pastes for e.g. your username or email address in order to increase your own security.
 
-### ⚠️ Important note
-In April 2020 Pastebin [disabled access to their scraping API](https://twitter.com/rnd_infosec_guy/status/1248310762227093509) for a short period of time. At first people weren't able to access the scraping API in any way, but later on they re-enabled access to the API setup page. But since then it isn't possible to scrape "text" pastes. Only pastes with any kind of syntax set. That reduces the amount of pastes to a minimum, which reduced the usefulness of this tool.
+> [!WARNING]  
+> In April 2020 Pastebin [disabled access to their scraping API](https://twitter.com/rnd_infosec_guy/status/1248310762227093509) for a short period of time. At first people weren't able to access the scraping API in any way, but later on they re-enabled access to the API setup page. But since then it isn't possible to scrape "text" pastes. Only pastes with any kind of syntax set. That reduces the amount of pastes to a minimum, which reduced the usefulness of this tool.
+> That's also the reason why I stopped using the tool some time ago. Since I don't use it anymore, maintaining it became a chore and I wouldn't even notice if something broke. That's also why I decided to archive this repository and stop any further development and contributions. If you're interested in continuing the development, feel free to create a fork.
 
 ### Setting up pastepwn
 
